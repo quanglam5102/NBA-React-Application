@@ -1,0 +1,109 @@
+$backgroundColor: pink;
+$fontSize: 13px;
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#main-div {
+  display: flex;
+  height: auto;
+}
+
+#first-item {
+  width: 30%;
+  background-image: url("https://bloximages.chicago2.vip.townnews.com/heraldandnews.com/content/tncms/assets/v3/editorial/0/b1/0b1e55ce-4766-5c7f-9f6c-19a4057fceb1/5a07e01fb8444.image.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-attachment: fixed;
+  height: auto;
+}
+
+#second-item {
+  background-color: $backgroundColor;
+  font-size: $fontSize;
+  border: solid 4px black;
+  border-radius: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  height: auto;
+}
+
+.btn-space {
+  margin-right: 50px;
+  margin-top: 35px;
+  margin-bottom: 40px;
+}
+
+.home-h1 {
+  color: darkblue;
+  font-weight: bold;
+}
+
+.home-p {
+  font-size: 25px;
+  color: darkgreen;
+}
+
+.radio-btn {
+  @extend .home-p;
+  font-size: 20px;
+}
+
+.btn-register {
+  margin-bottom: 20px;
+  border: 3px solid black;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.board {
+  border: 5px solid purple;
+  font-size: 15px;
+  font-weight: bold;
+  background-color: lightblue;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  padding: 20px 10px;
+}
+
+.player {
+  color: darkgoldenrod;
+}
+
+.container {
+  width: auto;
+  height: auto;
+  border: 15px solid gray;
+  background: #c0d3e4;
+  border-radius: 15px;
+  padding-bottom: 120px;
+}
+#uname {
+  width: 300px;  
+  height: 30px;  
+  border: none;  
+  border-radius: 3px;  
+  padding-left: 8px; 
+}
+#Pass{  
+  width: 300px;  
+  height: 30px;  
+  border: none;  
+  border-radius: 3px;  
+  padding-left: 8px;  
+    
+}  
+#log{  
+  width: 300px;  
+  height: 30px;  
+  border: none;  
+  border-radius: 17px;  
+  padding-left: 7px;  
+  color: white;  
+
+}
